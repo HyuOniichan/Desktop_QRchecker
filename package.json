@@ -1,0 +1,21 @@
+{
+  "name": "qrchecker",
+  "version": "1.0.0",
+  "description": "A desktop app to track screenshot and get QR code",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Duc Huy",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^33.2.1"
+  },
+  "dependencies": {
+    "jimp": "^1.6.0",
+    "qrcode-reader": "^1.0.4",
+    "screenshot-desktop": "^1.15.0"
+  }
+}
